@@ -2,7 +2,7 @@
 
 name = "promotions-statistics-app"
 client_id = "59ff7eb29a3f7784d37da3aa63d2411c"
-application_url = "https://merger-dentists-merchants-rain.trycloudflare.com"
+application_url = "https://steal-regression-raleigh-dentists.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://merger-dentists-merchants-rain.trycloudflare.com/auth/callback",
-  "https://merger-dentists-merchants-rain.trycloudflare.com/auth/shopify/callback",
-  "https://merger-dentists-merchants-rain.trycloudflare.com/api/auth/callback",
-  "https://merger-dentists-merchants-rain.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://steal-regression-raleigh-dentists.trycloudflare.com/auth/callback",
+  "https://steal-regression-raleigh-dentists.trycloudflare.com/auth/shopify/callback",
+  "https://steal-regression-raleigh-dentists.trycloudflare.com/api/auth/callback",
+  "https://steal-regression-raleigh-dentists.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]

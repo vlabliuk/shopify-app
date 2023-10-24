@@ -12,7 +12,7 @@ export async function getComment(id: number, graphql: any) {
   return comment;
 }
 
-export async function getQRCodes(shop: any, graphql: any) {
+export async function getComments(shop: any, graphql: any) {
   const comments = await db.comment.findMany({
     where: { shop },
     orderBy: { id: "desc" },
