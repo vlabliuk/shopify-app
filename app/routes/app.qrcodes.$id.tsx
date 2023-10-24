@@ -28,7 +28,7 @@ import {
 import { ImageMajor } from "@shopify/polaris-icons";
 
 import db from "../db.server";
-import { getComment, getComments } from "../models/Comments.server";
+import { getQRCode, validateQRCode } from "../models/QRCode.server";
 
 export async function loader({ request, params }) {
   const { admin } = await authenticate.admin(request);

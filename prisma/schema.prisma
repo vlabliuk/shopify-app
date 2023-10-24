@@ -21,13 +21,14 @@ model Session {
   userId      BigInt?
 }
 
-model Comment {
+model QRCode {
   id               Int      @id @default(autoincrement())
-  userName         String
-  content          String
+  title            String
   shop             String
   productId        String
   productHandle    String
   productVariantId String
+  destination      String
+  scans            Int      @default(0)
   createdAt        DateTime @default(now())
 }
