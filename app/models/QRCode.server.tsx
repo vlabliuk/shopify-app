@@ -43,7 +43,7 @@ export function getDestinationUrl(qrCode) {
   return `https://${qrCode.shop}/cart/${match[1]}:1`;
 }
 
-async function supplementQRCode(qrCode, graphql) {
+async function supplementQRCode(qrCode: any, graphql: any) {
   const qrCodeImagePromise = getQRCodeImage(qrCode.id);
 
   const response = await graphql(
